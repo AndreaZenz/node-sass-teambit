@@ -1,3 +1,49 @@
-*{
-    
+//first section
+
+
+.left{
+    margin:  $avarage_spaces 0;
+    width: calc(99% / 2);
+    display: inline-block;
+    color: $text_color;
+    h1{
+        font-size: $biggest_font;
+        padding: $avarage_spaces*2 0;
+    }
+    h2{
+        font-size: $normal_font;
+        padding: $avarage_spaces 0;
+    }
+    .button-container{
+        margin: $avarage_spaces*4 0;
+        span{
+            background-color: $button_color;
+            border:1px solid $button_color;
+            border-radius: 6px;
+            font-family: $font_type;
+            padding: 10px;
+            position: relative;
+            transform: translate(0,-9px);
+            padding-left: 28px;
+            a{
+                color: white;
+            }
+                
+            img{
+                width: 20px;
+                position: absolute;
+                left: 3px;
+                top: 11px;
+            }
+        }
+    }
+}
+
+.right{
+    margin:  $avarage_spaces 0;
+    width: calc(99% / 2);
+    display: inline-block;
+    img{
+        width: 100%;
+    }
 }

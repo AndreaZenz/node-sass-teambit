@@ -3,3 +3,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container{
+    max-width: 1240px;
+    margin: auto;
+}
+
+body{
+    font-family: $font_type;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.flex-container{
+    display: flex;
+}

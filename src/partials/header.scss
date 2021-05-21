@@ -1,0 +1,36 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: $normal_font;
+    border-bottom: 1px solid $text_color;
+    ul{
+        list-style: none;
+        display: flex;
+        margin: 0 $avarage_spaces;
+        
+        li{
+            margin: 0 $avarage_spaces;
+            a{
+                color: $text_color;
+            }
+        }
+        span{
+            display: block;
+            border:1px solid $button_color;
+            color: $button_color;
+            border-radius: 6px;
+            font-family: $font_type;
+            padding: 10px;
+            position: relative;
+            transform: translate(0,-9px);
+            padding-left: 28px;
+            img{
+                width: 20px;
+                position: absolute;
+                left: 3px;
+                top: 11px;
+            }
+        }
+    }
+}
