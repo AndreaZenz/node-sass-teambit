@@ -4,6 +4,12 @@ nav{
     margin: 20px 0;
     font-size: $normal_font;
     border-bottom: 1px solid $text_color;
+    .logo{
+        img{
+            height: 40px;
+        }
+
+    }
     ul{
         list-style: none;
         display: flex;

@@ -9,6 +9,11 @@
   margin: auto;
 }
 
+.container-whider {
+  max-width: 1640px;
+  margin: auto;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -31,6 +36,9 @@ nav {
   margin: 20px 0;
   font-size: 18px;
   border-bottom: 1px solid #594330;
+}
+nav .logo img {
+  height: 40px;
 }
 nav ul {
   list-style: none;
@@ -108,10 +116,95 @@ nav ul span img {
 }
 
 .text-container {
-  margin: auto;
-  padding: 8px;
+  padding: 32px;
+  color: #594330;
+}
+.text-container h2 {
+  text-align: center;
+  margin: 8px;
+}
+
+.line {
+  border-bottom: 1px solid #594330;
 }
 
 .images-container {
   display: flex;
+  justify-content: space-between;
+}
+.images-container .image-little {
+  width: 200px;
+  height: 200px;
+  justify-content: space-between;
+}
+.images-container .image-with-text {
+  display: flex;
+  flex-direction: column;
+}
+.images-container .image-with-text .image-little {
+  margin: auto;
+}
+
+.image-big-container {
+  display: flex;
+  justify-content: center;
+  padding: 32px 0;
+}
+.image-big-container .image-big {
+  margin: 8px;
+  width: 300px;
+  height: 350px;
+}
+
+.white-container {
+  display: flex;
+}
+.white-container .left-section {
+  width: calc(98% / 2);
+  margin: 32px 0;
+}
+.white-container .left-section img {
+  width: 100%;
+}
+.white-container .right-section {
+  width: calc(98% / 2);
+  margin: 32px 0;
+  position: relative;
+}
+.white-container .right-section .special-left {
+  position: absolute;
+  right: 0;
+}
+.white-container .right-section .special-left-img {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+}
+.white-container .right-section .special-left-img img {
+  width: 401px;
+}
+.white-container .right-section .text-right-section {
+  width: 50%;
+}
+.white-container .right-section .text-right-section h2 {
+  margin-bottom: 32px;
+  color: #594330;
+  font-size: 24px;
+}
+.white-container .right-section .text-right-section p {
+  margin: 32px 0;
+  color: #594330;
+  font-size: 18px;
+}
+.white-container .right-section .text-right-section a {
+  color: #2e4790;
+}
+.white-container .right-section-img {
+  width: 350px;
+  height: 350px;
+  display: flex;
+}
+
+.margin-right {
+  padding-left: 200px;
 }
