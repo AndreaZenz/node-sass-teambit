@@ -21,6 +21,10 @@ a {
   display: flex;
 }
 
+.pink-container {
+  background-color: #ffe7d2;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -101,4 +105,13 @@ nav ul span img {
 }
 .right img {
   width: 100%;
+}
+
+.text-container {
+  margin: auto;
+  padding: 8px;
+}
+
+.images-container {
+  display: flex;
 }
