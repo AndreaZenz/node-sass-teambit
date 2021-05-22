@@ -27,7 +27,11 @@ a {
 }
 
 .pink-container {
-  background-color: #ffe7d2;
+  background-color: #0414B3;
+}
+
+.spacing-things {
+  padding: 24px 0;
 }
 
 nav {
@@ -35,7 +39,7 @@ nav {
   justify-content: space-between;
   margin: 20px 0;
   font-size: 18px;
-  border-bottom: 1px solid #594330;
+  border-bottom: 1px solid #7F14D4;
 }
 nav .logo img {
   height: 40px;
@@ -49,7 +53,7 @@ nav ul li {
   margin: 0 8px;
 }
 nav ul li a {
-  color: #594330;
+  color: #7F14D4;
 }
 nav ul span {
   display: block;
@@ -73,7 +77,7 @@ nav ul span img {
   margin: 8px 0;
   width: calc(99% / 2);
   display: inline-block;
-  color: #594330;
+  color: #7F14D4;
 }
 .left h1 {
   font-size: 39px;
@@ -117,7 +121,7 @@ nav ul span img {
 
 .text-container {
   padding: 32px;
-  color: #594330;
+  color: #7F14D4;
 }
 .text-container h2 {
   text-align: center;
@@ -125,7 +129,7 @@ nav ul span img {
 }
 
 .line {
-  border-bottom: 1px solid #594330;
+  border-bottom: 1px solid #7F14D4;
 }
 
 .images-container {
@@ -143,6 +147,10 @@ nav ul span img {
 }
 .images-container .image-with-text .image-little {
   margin: auto;
+}
+.images-container .image-with-text p {
+  color: #7F14D4;
+  margin: 16px;
 }
 
 .image-big-container {
@@ -188,12 +196,12 @@ nav ul span img {
 }
 .white-container .right-section .text-right-section h2 {
   margin-bottom: 32px;
-  color: #594330;
+  color: #7F14D4;
   font-size: 24px;
 }
 .white-container .right-section .text-right-section p {
   margin: 32px 0;
-  color: #594330;
+  color: #7F14D4;
   font-size: 18px;
 }
 .white-container .right-section .text-right-section a {
@@ -207,4 +215,69 @@ nav ul span img {
 
 .margin-right {
   padding-left: 200px;
+}
+
+.text-container {
+  text-align: center;
+}
+.text-container h1 {
+  margin: 24px;
+  font-size: 39px;
+}
+
+.text-border-container {
+  max-width: 800px;
+  margin: auto;
+  border: 1px solid #2e4790;
+  border-radius: 16px;
+  padding: 16px;
+  position: relative;
+}
+.text-border-container p {
+  padding: 16px;
+  color: #7F14D4;
+  font-size: 18px;
+}
+.text-border-container .Co-founder {
+  position: absolute;
+  right: 55%;
+  bottom: 35px;
+}
+.text-border-container .Co-founder span {
+  display: block;
+  color: #7F14D4;
+}
+.text-border-container .Co-founder span a {
+  color: black;
+}
+.text-border-container img {
+  margin-right: 8px;
+}
+
+.second-button-section {
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 24px 0;
+}
+
+.change-flex-here {
+  display: flex;
+  justify-content: space-between;
+}
+.change-flex-here h2 {
+  margin: 32px 0;
+}
+.change-flex-here ul {
+  list-style: none;
+}
+.change-flex-here ul li {
+  margin-top: 8px;
+}
+
+.logo-with-text {
+  margin: 32px 0;
+  max-width: 400px;
+  display: flex;
+  align-items: flex-start;
 }

@@ -1,0 +1,20 @@
+.change-flex-here{
+    display: flex;
+    justify-content: space-between;
+    h2{
+        margin: ($avarage_spaces*4) 0;
+    }
+    ul{
+        list-style: none;
+        li{
+            margin-top: $avarage_spaces;
+        }
+    }
+}
+
+.logo-with-text{
+    margin: ($avarage_spaces*4) 0;
+    max-width: 400px;
+    display: flex;
+    align-items:flex-start;
+}

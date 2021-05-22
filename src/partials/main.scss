@@ -76,6 +76,10 @@
         .image-little {
             margin: auto;
         }
+        p{
+            color: $text_color;
+            margin: $avarage_spaces * 2;
+        }
     }
 }
 
@@ -150,4 +154,51 @@
 
 .margin-right{
     padding-left: 200px;
+}
+
+//fourth section
+
+.text-container{
+    text-align: center;
+
+    h1{
+        margin: $avarage_spaces * 3;
+        font-size: $biggest_font;
+    }
+}
+
+.text-border-container{
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid $button_color;
+    border-radius: 16px;
+    padding: $avarage_spaces*2;
+    position: relative;
+    p{
+        padding: $avarage_spaces*2;
+        color: $text_color;
+        font-size: $normal_font;
+    }
+    .Co-founder{
+        position:absolute;
+        right: 55%;
+        bottom: 35px;
+        span{
+            display: block;
+            color: $text_color;
+            a{
+                color: black;
+            }
+        }
+    }
+    img{
+        margin-right: $avarage_spaces;
+    }
+}
+
+.second-button-section{
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: ($avarage_spaces*3) 0;
 }
